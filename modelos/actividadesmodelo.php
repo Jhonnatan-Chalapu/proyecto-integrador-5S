@@ -8,7 +8,7 @@ class actividades{
         $this->db = (new Database())->conectar();
     }
  
-    public function listar() {
+    public function listara() {
         $query = $this->db->query("SELECT * FROM actividades");
         return $query->fetchAll(PDO::FETCH_ASSOC);
     }
