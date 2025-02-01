@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$dbname = "gestion_patios"; // Asegúrate de que es el nombre correcto de tu base de datos
-$username = "root"; // Cambia si tienes otro usuario
-$password = ""; // Cambia si tienes una contraseña en MySQL
+$dbname = "gestion_patios"; // Nombre de la base de datos
+$username = "root"; // Usuario 
+$password = ""; // Contraseña
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
