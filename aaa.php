@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $dbname = "gestion_patios"; // Nombre de la base de datos
-$username = "root"; // Usuario admin
+$username = "root"; // Usuario administrador
 $password = ""; // Contraseña
 
 try {
